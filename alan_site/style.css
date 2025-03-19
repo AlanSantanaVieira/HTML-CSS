@@ -1,0 +1,137 @@
+body{
+    background-color: hsl(45, 91%, 79%);
+}
+
+.header{
+    padding: 15px;
+}
+
+.links{
+    display: inline;
+    margin-left: 250px;
+}
+
+.links a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.links a:hover{
+    color: #ff9500;
+    border-top: 2px solid #febd3c;
+    border-bottom: 2px solid #ff9500;
+}
+.link-a1{
+    background-color: #febd3c;
+    border:  #ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-a2{
+    background-color: #febd3c;
+    border:#ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+   }
+
+.span-1 , .span-2{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.span-1{
+    color: #febd3c;
+}
+
+.span-2{
+    color: #ff9500;
+}
+
+.secao-1{
+    width: 500px;
+    background-color: beige;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.secao-2{
+    width: 500px;
+    background-color: beige; 
+    margin-top: 50px;   
+}
+
+.img{
+    width: 300px;
+}
+
+.img{
+    width: 150%;
+    border-radius: 100%;
+}
+
+.secao-3{
+    width: 90%;
+    background-color: beige;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: auto;
+}
+
+.secao-4{
+    width: 70%;
+    background-color: beige;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.link-b1{
+    background-color: #febd3c;
+    border:  #ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-b2{
+    background-color: #febd3c;
+    border:  #ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-c1{
+    background-color: #febd3c;
+    border:  #ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.link-c2{
+    background-color: #febd3c;
+    border:  #ff9500 solid 2px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer{
+ 
+    background-color:#febd3c;
+    color: rgb(0, 0, 0);    
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border:  #ff9500 solid 2px;    
+    
+}
+
+
+
