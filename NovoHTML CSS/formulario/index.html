@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="registro.php" method="GET">
+        <div>
+            <label>Nome:</label>
+            <input type="text" />
+        </div>
+
+        <!-- Atributo Name-->
+         <div>
+            <label>Idade:</label>
+            <input type="text" name="age" />
+         </div>
+
+         <!--Atributo Label-->
+         <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age" />
+         </div>         
+
+         <!--Select-->
+
+         <div>
+            <label for="cidade">Selecione sua Cidade:</label>
+            <select name="cidade">
+                <option value="São Paulo">São Paulo</option>
+                <option value="Taboão da Serra">Taboão da Serra</option>
+                <option value="Osasco" >Osasco</option>
+            </select>
+         </div>
+
+         <!--Selected--> <!--Seleciona a opção que fica no topo-->
+
+         <div>
+            <label for="selecao">Quem vai ganhar a próxima copa do mundo?</label>
+            <select name="times">
+                <option value="Argentina">Argentina</option>
+                <option value="Franca">França</option>
+                <option value="Alemanha">Alemanha</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Inglaterra" selected>Inglaterra</option>
+            </select>
+         </div>
+
+         <!--Seleção de vários Select-->
+
+         <div>
+            <label for="acessorios">Selecione os acessórios de seu computador:</label>
+            <select name="acessorios" multiple>
+            <option value="Mouse">Mouse</option>
+            <option value="Teclado">Teclado</option>
+            <option value="Fone-de-Ouvido">Fone de Ouvido</option>
+            <option value="Webcan">Webcan</option> 
+        </select>                                    
+         </div>
+
+         <!--Textarea-->
+
+         <div>
+            <label for="feedback">Descreva seu feedback sobre o nosso site:</label>
+            <textarea name="feedback"></textarea>
+         </div>
+
+         <!--Fildset e Leegend-->
+
+         <div>
+            <fieldset>
+                <legend>Insira o seu endereço:</legend>
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua"/>
+                <label for="numero">Número:</label>
+                <input type="text" name="numero"/>  
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro"/>                
+            </fieldset>
+         </div>
+
+         <!--Datalist-->
+
+         <div>
+            <label for="livro">Selecione seu livro:</label>
+            <input type="text" list="livros" name="livro">            
+         </div>
+
+         <datalist id="livros">
+            <option value="Crépusculo"></option>
+            <option value="Pantano de sangue"></option>
+            <option value="Harry Potter e a Pedra Filosofal"></option>
+            <option value="A Hospedeira"></option>
+            <option value="Harry Potter e a Cálise de Fogo"></option>
+         </datalist>
+
+         <!--Input Password-->
+
+         <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha"/>
+         </div>
+
+         <!--Input Radio-->
+
+         <div>
+            <label for="genero">Qual a sua identidade de genêro</label>           
+            <div class="radio">
+                <input type="radio" value="Mulher Cis" name="genero" />
+                <label for="Mulher-Cis">Mulher Cis</label>
+                </div>
+                <div>
+                <input type="radio" value="Homem-Cis" name="genero" />
+                <label for="Homem-Cis">Homem Cis</label>
+            </div>
+            <div>
+                <input type="radio" value="Homem-Trans" name="genero" />
+                <label for="Homem-Trans">Homem Trans</label>
+            </div>
+            <div>
+                <input type="radio" value="Mulher-Trans" name="genero" />
+                <label for="Mulher-Trans">Mulher Trans</label>
+            </div>
+            <div>
+                <input type="radio" value="" name="genero" />
+                <label for="Nao-Binario">Não Binário</label>
+            </div>
+         </div>
+
+         <!--Limpando/Resetando o Formulário-->
+
+         <input type="reset" value="Limpar" />         
+
+         <!--Submit Botão-->
+         <input type="submit" value="Enviar" />         
+    </form>
+</body>
+</html>
